@@ -1,3 +1,6 @@
+## Find all users with a given email
+GET http://localhost:8000/auth?email=asdf@asdf.com
+
 ### Create a new user
 POST http://localhost:8000/auth/signup
 Content-Type: application/json
@@ -6,3 +9,6 @@ Content-Type: application/json
     "email": "qwqe@asdf.com",
     "password": "asddfg"
 }
+
+### Find a particular user with a given ID
+GET http://localhost:8000/auth/2
