@@ -10,6 +10,15 @@ Content-Type: application/json
     "password": "tiaphari"
 }
 
+### Signin a user
+POST http://localhost:8000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "fauzan1@test.com",
+    "password": "tiaphari"
+}
+
 ### Find a particular user with a given ID
 GET http://localhost:8000/auth/4
 
