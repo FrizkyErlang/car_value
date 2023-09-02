@@ -6,12 +6,12 @@ POST http://localhost:8000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "qwqe@asdf.com",
+    "email": "asdf@asdf.com",
     "password": "asddfg"
 }
 
 ### Find a particular user with a given ID
-GET http://localhost:8000/auth/3
+GET http://localhost:8000/auth/4
 
 ### Delete a user given id
 DELETE  http://localhost:8000/auth/2
