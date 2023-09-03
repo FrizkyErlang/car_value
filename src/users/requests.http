@@ -19,6 +19,9 @@ Content-Type: application/json
     "password": "tiaphari"
 }
 
+### Get the currently signed in user
+GET http://localhost:8000/auth/whoami
+
 ### Find a particular user with a given ID
 GET http://localhost:8000/auth/4
 
