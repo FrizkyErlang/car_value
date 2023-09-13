@@ -1,8 +1,8 @@
 .env.development
 .env.test
 
-db.sqlite
-test.sqlite
+*.sqlite
+# test.sqlite
 
 # compiled output
 /dist
